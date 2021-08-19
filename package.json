@@ -4,9 +4,7 @@
   "description": "Desafio clase 7 - Servidor con express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "babel-node index.js",
-    "start": "nodemon --exec npm run dev"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,6 +21,7 @@
   },
   "homepage": "https://github.com/cagramajo/Clase07_Servidor_con_express#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "moment": "^2.29.1",
     "nodemon": "^2.0.12"
   },

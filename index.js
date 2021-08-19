@@ -1,7 +1,16 @@
-const moment = require('moment');
+const express = require("express");
 
-let fecha1 =  moment([2021, 08, 21]);
-let fecha2 = moment([2018, 02, 10]);
-let resultado = fecha1.diff(fecha2, 'days');
+const app = express();
+let port = 3001;
 
-console.log('Esta es una prueba! ', resultado);
+const server = app.listen(port, () => {
+    console.log('Escuchando en el puerto ', port);
+});
+
+app.get('/',(req, res) => {
+    res.json({msg: 'text'});
+});
+
+app.get('/mundo', (req, res) => {
+    res.send('Hola Mundo');
+});
