@@ -1,0 +1,35 @@
+{
+  "name": "clase07_servidor_con_express",
+  "version": "0.1.0",
+  "description": "Desafio clase 7 - Servidor con express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "babel-node index.js",
+    "start": "nodemon --exec npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagramajo/Clase07_Servidor_con_express.git"
+  },
+  "keywords": [
+    "express",
+    "coderhouse"
+  ],
+  "author": "Edu Gramajo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cagramajo/Clase07_Servidor_con_express/issues"
+  },
+  "homepage": "https://github.com/cagramajo/Clase07_Servidor_con_express#readme",
+  "dependencies": {
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0"
+  }
+}
